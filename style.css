@@ -1,0 +1,29 @@
+#container{
+    border: 1px solid black;
+    border-radius: 1.5rem;
+    display: flex;
+    margin:2rem;
+    /* padding:5rem; */
+}
+
+
+#display{
+    padding:5rem;
+}
+
+#sidebar{
+    border-right:1px solid black;
+    padding: 2rem;
+    min-width: 10rem;
+}
+
+
+.directory{
+    margin-left: calc(var(--level)*0.8rem);
+    cursor: pointer;
+}
+
+.file{
+    margin-left:calc(var(--level)*0.8rem);
+    cursor: pointer;
+}
